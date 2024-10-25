@@ -1,0 +1,18 @@
+@import"../node_modules/bootstrap/scss/functions";
+
+$primary: rgb(252, 0, 0);
+
+//enable-rounded:false;
+
+//functions \ variables \ mix-ins
+@import"../node_modules/bootstrap/scss/variables";
+@import"../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+    "tertiary": orange,
+    "tertiary-light": rgb(247,203,123),
+    "tertiary-dark": rgb(100, 65, 0)
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//This is at the bottom of the file
